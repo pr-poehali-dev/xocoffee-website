@@ -237,8 +237,8 @@ const menuItems: MenuItem[] = [
     description: "Традиционный сытный завтрак",
     price: 429,
     category: "breakfast",
-    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
-    ingredients: ["Яйца", "Бекон", "Сосиски", "Бобы", "Тосты"],
+    image: "/img/6950fb67-b5db-432e-8ced-abcd44d2c2cf.jpg",
+    ingredients: ["2 яйца", "Огурец", "Томат", "Фасоль", "Салат айсберг", "Бекон", "Охотничья колбаска", "Перец", "Смесь семян", "Оливковое масло", "Хрустящий лук", "Тост в гриле"],
     allergens: ["Яйца", "Глютен"]
   },
   {
