@@ -13,7 +13,7 @@ export default function Index() {
             <div className="hidden md:flex space-x-8">
               <a href="#hero" className="text-muted-foreground hover:text-primary transition-colors">Главная</a>
               <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">О нас</a>
-              <a href="#menu" className="text-muted-foreground hover:text-primary transition-colors">Меню</a>
+              <a href="/menu" className="text-muted-foreground hover:text-primary transition-colors">Меню</a>
               <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Контакты</a>
             </div>
           </div>
@@ -42,6 +42,7 @@ export default function Index() {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full"
+                onClick={() => window.location.href = '/menu'}
               >
                 Наше меню
               </Button>
