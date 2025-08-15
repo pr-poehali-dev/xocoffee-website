@@ -102,7 +102,7 @@ const menuItems: MenuItem[] = [
     category: "raf",
     image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
     ingredients: ["Эспрессо", "Сливки", "Ваниль", "Сахар"],
-    allergens: ["Молоко"],
+    allergens: ["Сливки"],
     isHit: true
   },
   {
@@ -113,7 +113,7 @@ const menuItems: MenuItem[] = [
     category: "raf",
     image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
     ingredients: ["Эспрессо", "Сливки", "Ваниль", "Сахар"],
-    allergens: ["Молоко"]
+    allergens: ["Сливки"]
   },
   {
     id: "raf-3",
@@ -121,9 +121,9 @@ const menuItems: MenuItem[] = [
     description: "Ароматный раф со сгущённым молоком и пряной гвоздикой",
     price: 379,
     category: "raf",
-    image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
+    image: "/img/65901b96-0754-4d33-825e-e7130b596998.jpg",
     ingredients: ["Эспрессо", "Сливки", "Сгущённое молоко", "Гвоздика"],
-    allergens: ["Молоко"],
+    allergens: ["Сливки"],
     isHit: true
   },
   {
@@ -132,9 +132,9 @@ const menuItems: MenuItem[] = [
     description: "Ароматный раф со сгущённым молоком и пряной гвоздикой",
     price: 269,
     category: "raf",
-    image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
+    image: "/img/65901b96-0754-4d33-825e-e7130b596998.jpg",
     ingredients: ["Эспрессо", "Сливки", "Сгущённое молоко", "Гвоздика"],
-    allergens: ["Молоко"]
+    allergens: ["Сливки"]
   },
   {
     id: "raf-5",
@@ -144,7 +144,7 @@ const menuItems: MenuItem[] = [
     category: "raf",
     image: "/img/9637bcfc-96ac-4dff-9e4b-4b16c1a823cd.jpg",
     ingredients: ["Эспрессо", "Сливки", "Лавандовый сироп", "Сахар"],
-    allergens: ["Молоко"],
+    allergens: ["Сливки"],
     isHit: true
   },
   {
@@ -155,7 +155,7 @@ const menuItems: MenuItem[] = [
     category: "raf",
     image: "/img/9637bcfc-96ac-4dff-9e4b-4b16c1a823cd.jpg",
     ingredients: ["Эспрессо", "Сливки", "Лавандовый сироп", "Сахар"],
-    allergens: ["Молоко"]
+    allergens: ["Сливки"]
   },
 
   // ЧАЙ И НАПИТКИ
