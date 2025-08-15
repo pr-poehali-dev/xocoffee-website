@@ -212,16 +212,6 @@ const menuItems: MenuItem[] = [
     allergens: ["Молоко", "Орехи", "Глютен"]
   },
   {
-    id: "13",
-    name: "Булгур на сливках с пармезаном и беконом",
-    description: "Сытный и ароматный завтрак с пармезаном",
-    price: 369,
-    category: "breakfast",
-    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
-    ingredients: ["Булгур", "Сливки", "Пармезан", "Бекон"],
-    allergens: ["Молоко", "Глютен"]
-  },
-  {
     id: "14",
     name: "Запеканка творожная",
     description: "Нежная творожная запеканка. Топпинги по желанию: сметана, джем, сгущёнка +49₽",
@@ -240,16 +230,6 @@ const menuItems: MenuItem[] = [
     image: "/img/6950fb67-b5db-432e-8ced-abcd44d2c2cf.jpg",
     ingredients: ["2 яйца", "Огурец", "Томат", "Фасоль", "Салат айсберг", "Бекон", "Охотничья колбаска", "Перец", "Смесь семян", "Оливковое масло", "Хрустящий лук", "Тост в гриле"],
     allergens: ["Яйца", "Глютен"]
-  },
-  {
-    id: "16",
-    name: "Быстрый завтрак (второе блюдо + гарнир + чай)",
-    description: "Комплексный завтрак для экономии времени",
-    price: 349,
-    category: "breakfast",
-    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
-    ingredients: ["По выбору из меню"],
-    allergens: []
   },
 
   // ОСНОВНЫЕ БЛЮДА И СУПЫ
