@@ -207,7 +207,7 @@ const menuItems: MenuItem[] = [
     description: "Овсяная каша на выбор с разными топпингами",
     price: 179,
     category: "breakfast",
-    image: "/img/a7a112e8-b2d5-4764-aa85-82038b6b5dfc.jpg",
+    image: "/img/6f4f3914-763c-4d61-a01d-64ba625278cc.jpg",
     ingredients: ["Овсяные хлопья", "Молоко", "Фрукты", "Орехи"],
     allergens: ["Молоко", "Орехи", "Глютен"]
   },
