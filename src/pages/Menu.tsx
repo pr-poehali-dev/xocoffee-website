@@ -15,143 +15,287 @@ interface MenuItem {
   image: string;
   ingredients?: string[];
   allergens?: string[];
+  isHit?: boolean;
 }
 
 const menuItems: MenuItem[] = [
+  // КОФЕ
   {
     id: "1",
-    name: "Альтернатива V60",
-    description: "Фильтр-кофе методом пуровер. Раскрывает яркие фруктовые ноты specialty зерна",
-    price: 340,
+    name: "Ристретто, эспрессо",
+    description: "Американо, лунго - классические черные кофейные напитки",
+    price: 189,
     category: "coffee",
-    image: "/img/f4c1e072-171f-4843-8db7-4a5443bb3c26.jpg",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
     ingredients: ["Specialty кофе", "Горячая вода 92°C"],
     allergens: []
   },
   {
     id: "2",
-    name: "Кофейная пара",
-    description: "Эспрессо + кортадо для полного понимания вкуса зерна",
-    price: 280,
+    name: "Капучино",
+    description: "Идеальный баланс эспрессо и бархатистой молочной пены",
+    price: 199,
     category: "coffee",
-    image: "/img/f4c1e072-171f-4843-8db7-4a5443bb3c26.jpg",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
     ingredients: ["Эспрессо", "Молоко 3.2%"],
-    allergens: ["Молоко"]
+    allergens: ["Молоко"],
+    isHit: true
   },
   {
     id: "3",
-    name: "Эспрессо",
-    description: "Классический двойной эспрессо из свежеобжаренного зерна",
-    price: 160,
+    name: "Латте",
+    description: "Нежный кофейный напиток с большим количеством молока",
+    price: 199,
     category: "coffee",
-    image: "/img/f4c1e072-171f-4843-8db7-4a5443bb3c26.jpg",
-    ingredients: ["Specialty кофе 18г"],
-    allergens: []
-  },
-  {
-    id: "4",
-    name: "Капучино",
-    description: "Идеальный баланс эспрессо и бархатистой молочной пены",
-    price: 220,
-    category: "coffee",
-    image: "/img/f4c1e072-171f-4843-8db7-4a5443bb3c26.jpg",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
     ingredients: ["Эспрессо", "Молоко 3.2%"],
     allergens: ["Молоко"]
   },
   {
+    id: "4",
+    name: "Флэт уайт",
+    description: "Двойной эспрессо с микропеной молока",
+    price: 279,
+    category: "coffee",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Двойной эспрессо", "Молоко"],
+    allergens: ["Молоко"],
+    isHit: true
+  },
+  {
     id: "5",
-    name: "Матча-латте",
-    description: "Премиальная японская матча с молоком и легкой сладостью",
-    price: 280,
-    category: "tea",
-    image: "/img/4d486bd4-7aab-48a7-a551-e9be558306e2.jpg",
-    ingredients: ["Матча ceremonial grade", "Молоко", "Агавный сироп"],
+    name: "Мокачино",
+    description: "Кофе с шоколадом и взбитыми сливками",
+    price: 319,
+    category: "coffee",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Эспрессо", "Шоколад", "Молоко", "Сливки"],
     allergens: ["Молоко"]
   },
   {
     id: "6",
-    name: "Чай черный",
-    description: "Цейлонский черный чай с насыщенным вкусом",
-    price: 150,
-    category: "tea",
-    image: "/img/4d486bd4-7aab-48a7-a551-e9be558306e2.jpg",
-    ingredients: ["Черный чай листовой"],
-    allergens: []
+    name: "Аффогато",
+    description: "Ванильное мороженое с горячим эспрессо",
+    price: 319,
+    category: "coffee",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Эспрессо", "Ванильное мороженое"],
+    allergens: ["Молоко"]
   },
   {
     id: "7",
-    name: "Чизкейк манго-маракуйя",
-    description: "Нежный чизкейк с тропическим муссом и хрустящей основой",
-    price: 299,
-    category: "desserts",
-    image: "/img/1dfd8c68-4085-431d-bee3-9e7f13b50874.jpg",
-    ingredients: ["Творожный сыр", "Манго", "Маракуйя", "Печенье"],
-    allergens: ["Глютен", "Молоко", "Яйца"]
+    name: "Латте халва/мёд",
+    description: "Ароматный латте с восточными нотами",
+    price: 319,
+    category: "coffee",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Эспрессо", "Молоко", "Халва", "Мёд"],
+    allergens: ["Молоко", "Орехи"]
   },
+
+  // ЧАЙ И НАПИТКИ
   {
     id: "8",
-    name: "Веган-брауни",
-    description: "Шоколадный брауни без продуктов животного происхождения",
-    price: 199,
-    category: "desserts",
-    image: "/img/1dfd8c68-4085-431d-bee3-9e7f13b50874.jpg",
-    ingredients: ["Темный шоколад", "Миндальная мука", "Кокосовое молоко"],
-    allergens: ["Орехи"]
+    name: "V60",
+    description: "Альтернативный способ заваривания кофе",
+    price: 259,
+    category: "tea",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Specialty кофе", "Горячая вода"],
+    allergens: []
   },
   {
     id: "9",
-    name: "Тирамису",
-    description: "Классический итальянский десерт с маскарпоне и кофе",
-    price: 250,
-    category: "desserts",
-    image: "/img/1dfd8c68-4085-431d-bee3-9e7f13b50874.jpg",
-    ingredients: ["Маскарпоне", "Савоярди", "Эспрессо", "Какао"],
-    allergens: ["Глютен", "Молоко", "Яйца"]
+    name: "Дрип кофе",
+    description: "Медленно заваренный кофе капельным методом",
+    price: 139,
+    category: "tea",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Specialty кофе", "Горячая вода"],
+    allergens: []
   },
   {
     id: "10",
-    name: "Сырники с малиной",
-    description: "Воздушные сырники из фермерского творога с малиновым соусом",
-    price: 279,
-    category: "breakfast",
-    image: "/img/4d486bd4-7aab-48a7-a551-e9be558306e2.jpg",
-    ingredients: ["Творог фермерский", "Малина", "Мед", "Мука"],
-    allergens: ["Глютен", "Молоко", "Яйца"]
+    name: "Матча латте",
+    description: "Японская матча с молоком",
+    price: 269,
+    category: "tea",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Матча", "Молоко"],
+    allergens: ["Молоко"]
   },
   {
     id: "11",
-    name: "Омлет с трюфелем",
-    description: "Нежный омлет из органических яиц с трюфельным маслом",
-    price: 339,
-    category: "breakfast",
-    image: "/img/4d486bd4-7aab-48a7-a551-e9be558306e2.jpg",
-    ingredients: ["Яйца органические", "Трюфельное масло", "Сливки"],
-    allergens: ["Яйца", "Молоко"]
+    name: "Какао",
+    description: "Горячий шоколад с молоком",
+    price: 239,
+    category: "tea",
+    image: "https://cdn.poehali.dev/files/026e404d-442f-45ca-8640-5429e13a14e5.jpg",
+    ingredients: ["Какао", "Молоко", "Сахар"],
+    allergens: ["Молоко"]
   },
+
+  // ЗАВТРАКИ
   {
     id: "12",
-    name: "Авокадо-тост",
-    description: "Тост из цельнозернового хлеба с гуакамоле и пошированным яйцом",
-    price: 259,
+    name: "Каша дня",
+    description: "Овсяная каша на выбор с разными топпингами",
+    price: 179,
     category: "breakfast",
-    image: "/img/4d486bd4-7aab-48a7-a551-e9be558306e2.jpg",
-    ingredients: ["Авокадо", "Цельнозерновой хлеб", "Яйцо", "Лайм"],
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["Овсяные хлопья", "Молоко", "Фрукты", "Орехи"],
+    allergens: ["Молоко", "Орехи", "Глютен"]
+  },
+  {
+    id: "13",
+    name: "Булгур на сливках с пармезаном и беконом",
+    description: "Сытный и ароматный завтрак с пармезаном",
+    price: 369,
+    category: "breakfast",
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["Булгур", "Сливки", "Пармезан", "Бекон"],
+    allergens: ["Молоко", "Глютен"]
+  },
+  {
+    id: "14",
+    name: "Сырники 3шт",
+    description: "Нежные творожные сырники",
+    price: 299,
+    category: "breakfast",
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["Творог", "Яйца", "Мука", "Сахар"],
+    allergens: ["Молоко", "Яйца", "Глютен"]
+  },
+  {
+    id: "15",
+    name: "Английский завтрак",
+    description: "Традиционный сытный завтрак",
+    price: 429,
+    category: "breakfast",
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["Яйца", "Бекон", "Сосиски", "Бобы", "Тосты"],
+    allergens: ["Яйца", "Глютен"]
+  },
+  {
+    id: "16",
+    name: "Быстрый завтрак (второе блюдо + гарнир + чай)",
+    description: "Комплексный завтрак для экономии времени",
+    price: 349,
+    category: "breakfast",
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["По выбору из меню"],
+    allergens: []
+  },
+
+  // ОСНОВНЫЕ БЛЮДА И СУПЫ
+  {
+    id: "17",
+    name: "Печень куриная",
+    description: "Нежная куриная печень с гарниром",
+    price: 239,
+    category: "main",
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["Куриная печень", "Лук", "Специи"],
+    allergens: []
+  },
+  {
+    id: "18",
+    name: "Щёки говяжьи с черносливом и розовым перцем",
+    description: "Деликатесное мясное блюдо",
+    price: 379,
+    category: "main",
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["Говяжьи щёки", "Чернослив", "Розовый перец"],
+    allergens: []
+  },
+  {
+    id: "19",
+    name: "Рагу овощное с цыплёнком",
+    description: "Домашнее рагу с сезонными овощами",
+    price: 279,
+    category: "main",
+    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
+    ingredients: ["Цыплёнок", "Овощи сезонные", "Специи"],
+    allergens: []
+  },
+
+  // ПЕЛЬМЕНИ И ВАРЕНИКИ
+  {
+    id: "20",
+    name: "Пельмени которые любят все",
+    description: "Тесто: мука высшего сорта, яйцо, масло подсолнечное, соль. Начинка: фермерская говядина и свинина, репчатый лук, соль, чёрный перчик",
+    price: 349,
+    category: "dumplings",
+    image: "https://cdn.poehali.dev/files/80da94aa-a173-441b-af1a-c938ea2661dd.jpg",
+    ingredients: ["Говядина", "Свинина", "Мука", "Яйца"],
+    allergens: ["Глютен", "Яйца"],
+    isHit: true
+  },
+  {
+    id: "21",
+    name: "Пельмени из сочной курочки",
+    description: "Отборное филе грудки куриной, репчатый лук, соль, чёрный перчик, чеснок сушёный, ароматная паприка",
+    price: 349,
+    category: "dumplings",
+    image: "https://cdn.poehali.dev/files/80da94aa-a173-441b-af1a-c938ea2661dd.jpg",
+    ingredients: ["Куриная грудка", "Лук", "Специи", "Мука", "Яйца"],
     allergens: ["Глютен", "Яйца"]
+  },
+  {
+    id: "22",
+    name: "Вареники с вишней",
+    description: "Вишня из бабушкиного сада, сахар",
+    price: 339,
+    category: "dumplings",
+    image: "https://cdn.poehali.dev/files/80da94aa-a173-441b-af1a-c938ea2661dd.jpg",
+    ingredients: ["Вишня", "Сахар", "Мука", "Яйца"],
+    allergens: ["Глютен", "Яйца"],
+    isHit: true
+  },
+  {
+    id: "23",
+    name: "Вареники с картофелем",
+    description: "Фермерский картофель, коровье молоко, сливочное масло, соль",
+    price: 319,
+    category: "dumplings",
+    image: "https://cdn.poehali.dev/files/80da94aa-a173-441b-af1a-c938ea2661dd.jpg",
+    ingredients: ["Картофель", "Молоко", "Сливочное масло", "Мука"],
+    allergens: ["Глютен", "Яйца", "Молоко"]
+  },
+  {
+    id: "24",
+    name: "Вареники с творогом",
+    description: "Сливочный творог 5-9%, яркий куриный желток, сметана 15%, сахар, соль",
+    price: 339,
+    category: "dumplings",
+    image: "https://cdn.poehali.dev/files/80da94aa-a173-441b-af1a-c938ea2661dd.jpg",
+    ingredients: ["Творог", "Яйца", "Сметана", "Сахар"],
+    allergens: ["Глютен", "Яйца", "Молоко"]
+  },
+  {
+    id: "25",
+    name: "Вареники с грибочками и картофелем",
+    description: "Свежие шампиньоны, фермерский картофель, коровье молоко, сливочное масло, соль",
+    price: 339,
+    category: "dumplings",
+    image: "https://cdn.poehali.dev/files/80da94aa-a173-441b-af1a-c938ea2661dd.jpg",
+    ingredients: ["Шампиньоны", "Картофель", "Молоко", "Масло"],
+    allergens: ["Глютен", "Яйца", "Молоко"]
   }
 ];
 
 const categories = [
   { id: "all", name: "Все", icon: "Utensils" },
   { id: "coffee", name: "Кофе", icon: "Coffee" },
-  { id: "tea", name: "Чай", icon: "Leaf" },
-  { id: "desserts", name: "Десерты", icon: "Cake" },
-  { id: "breakfast", name: "Завтраки", icon: "Sunrise" }
+  { id: "tea", name: "Чай и напитки", icon: "Leaf" },
+  { id: "breakfast", name: "Завтраки", icon: "Sunrise" },
+  { id: "main", name: "Основные блюда", icon: "ChefHat" },
+  { id: "dumplings", name: "Пельмени и вареники", icon: "Cake" }
 ];
 
 export default function Menu() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null);
 
   const filteredItems = menuItems.filter(item => {
     const matchesCategory = selectedCategory === "all" || item.category === selectedCategory;
@@ -170,7 +314,7 @@ export default function Menu() {
               <Button 
                 variant="ghost" 
                 size="sm"
-                onClick={() => window.history.back()}
+                onClick={() => window.location.href = '/'}
                 className="text-muted-foreground hover:text-primary"
               >
                 <Icon name="ArrowLeft" size={20} className="mr-2" />
@@ -232,7 +376,12 @@ export default function Menu() {
                       alt={item.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <div className="absolute top-4 right-4">
+                    <div className="absolute top-4 right-4 flex gap-2">
+                      {item.isHit && (
+                        <Badge variant="secondary" className="bg-yellow-100 text-yellow-800 border-yellow-300">
+                          ХИТ
+                        </Badge>
+                      )}
                       <Badge variant="secondary" className="bg-white/90 text-primary">
                         {item.price}₽
                       </Badge>
@@ -246,7 +395,7 @@ export default function Menu() {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+                    <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
                       {item.description}
                     </p>
                     <div className="flex justify-between items-center">
@@ -265,7 +414,14 @@ export default function Menu() {
               {/* Modal */}
               <DialogContent className="max-w-2xl">
                 <DialogHeader>
-                  <DialogTitle className="text-2xl text-primary">{item.name}</DialogTitle>
+                  <DialogTitle className="text-2xl text-primary flex items-center gap-2">
+                    {item.name}
+                    {item.isHit && (
+                      <Badge variant="secondary" className="bg-yellow-100 text-yellow-800 border-yellow-300">
+                        ХИТ
+                      </Badge>
+                    )}
+                  </DialogTitle>
                 </DialogHeader>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -345,6 +501,9 @@ export default function Menu() {
             Все цены указаны в рублях. Возможны изменения без предварительного уведомления.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
+            💛 Рекомендуем попробовать наше сезонное меню напитков
+          </p>
+          <p className="text-xs text-muted-foreground mt-2">
             Если у вас есть аллергии или особые диетические требования, сообщите нашим бариста
           </p>
         </div>

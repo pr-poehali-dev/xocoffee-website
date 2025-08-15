@@ -130,20 +130,20 @@ export default function Index() {
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span>Альтернатива V60</span>
-                    <span className="font-semibold">340₽</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Кофейная пара</span>
-                    <span className="font-semibold">280₽</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Эспрессо</span>
-                    <span className="font-semibold">160₽</span>
+                    <span>Ристретто, эспрессо</span>
+                    <span className="font-semibold">189₽</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Капучино</span>
-                    <span className="font-semibold">220₽</span>
+                    <span className="font-semibold">199₽</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Флэт уайт</span>
+                    <span className="font-semibold">279₽</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Мокачино</span>
+                    <span className="font-semibold">319₽</span>
                   </div>
                 </div>
               </CardContent>
@@ -158,20 +158,20 @@ export default function Index() {
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span>Матча-латте</span>
-                    <span className="font-semibold">280₽</span>
+                    <span>Матча латте</span>
+                    <span className="font-semibold">269₽</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Чай черный</span>
-                    <span className="font-semibold">150₽</span>
+                    <span>V60</span>
+                    <span className="font-semibold">259₽</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Чай зеленый</span>
-                    <span className="font-semibold">150₽</span>
+                    <span>Дрип кофе</span>
+                    <span className="font-semibold">139₽</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Травяной сбор</span>
-                    <span className="font-semibold">180₽</span>
+                    <span>Какао</span>
+                    <span className="font-semibold">239₽</span>
                   </div>
                 </div>
               </CardContent>
@@ -214,20 +214,20 @@ export default function Index() {
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span>Сырники с малиной</span>
-                    <span className="font-semibold">279₽</span>
+                    <span>Каша дня</span>
+                    <span className="font-semibold">179₽</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Омлет с трюфелем</span>
+                    <span>Сырники 3шт</span>
+                    <span className="font-semibold">299₽</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Пельмени любимые</span>
+                    <span className="font-semibold">349₽</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Вареники с вишней</span>
                     <span className="font-semibold">339₽</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Авокадо-тост</span>
-                    <span className="font-semibold">259₽</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Гранола</span>
-                    <span className="font-semibold">239₽</span>
                   </div>
                 </div>
               </CardContent>
