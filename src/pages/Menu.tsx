@@ -223,12 +223,12 @@ const menuItems: MenuItem[] = [
   },
   {
     id: "14",
-    name: "Сырники 3шт",
-    description: "Нежные творожные сырники",
-    price: 299,
+    name: "Запеканка творожная",
+    description: "Нежная творожная запеканка. Топпинги по желанию: сметана, джем, сгущёнка +49₽",
+    price: 199,
     category: "breakfast",
-    image: "https://cdn.poehali.dev/files/9f3c66b8-0bbe-4691-b437-deed4db23231.jpg",
-    ingredients: ["Творог", "Яйца", "Мука", "Сахар"],
+    image: "/img/c9c1dc62-a72f-4179-b1cc-1ec3298287f5.jpg",
+    ingredients: ["Творог 9%", "Манка", "Сахар", "Яйцо", "Сметана", "Соль", "Ванилин", "Разрыхлитель"],
     allergens: ["Молоко", "Яйца", "Глютен"]
   },
   {
