@@ -143,7 +143,7 @@ const menuItems: MenuItem[] = [
     price: 379,
     category: "raf",
     image: "/img/9637bcfc-96ac-4dff-9e4b-4b16c1a823cd.jpg",
-    ingredients: ["Эспрессо", "Сливки", "Лавандовый сироп", "Сахар"],
+    ingredients: ["Эспрессо", "Сливки", "Цветы лаванды", "Сахар"],
     allergens: ["Сливки"],
     isHit: true
   },
@@ -154,7 +154,7 @@ const menuItems: MenuItem[] = [
     price: 269,
     category: "raf",
     image: "/img/9637bcfc-96ac-4dff-9e4b-4b16c1a823cd.jpg",
-    ingredients: ["Эспрессо", "Сливки", "Лавандовый сироп", "Сахар"],
+    ingredients: ["Эспрессо", "Сливки", "Цветы лаванды", "Сахар"],
     allergens: ["Сливки"]
   },
 
