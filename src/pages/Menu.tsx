@@ -93,6 +93,71 @@ const menuItems: MenuItem[] = [
     allergens: ["Молоко", "Орехи"]
   },
 
+  // СЛИВОЧНЫЙ РАФ
+  {
+    id: "raf-1",
+    name: "Классический ванильный раф 0.3л",
+    description: "Нежный сливочный кофе с ванилью, большая порция",
+    price: 379,
+    category: "raf",
+    image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
+    ingredients: ["Эспрессо", "Сливки", "Ваниль", "Сахар"],
+    allergens: ["Молоко"],
+    isHit: true
+  },
+  {
+    id: "raf-2",
+    name: "Классический ванильный раф 0.2л",
+    description: "Нежный сливочный кофе с ванилью, стандартная порция",
+    price: 269,
+    category: "raf",
+    image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
+    ingredients: ["Эспрессо", "Сливки", "Ваниль", "Сахар"],
+    allergens: ["Молоко"]
+  },
+  {
+    id: "raf-3",
+    name: "Сгущёнка-гвоздика раф 0.3л",
+    description: "Ароматный раф со сгущённым молоком и пряной гвоздикой",
+    price: 379,
+    category: "raf",
+    image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
+    ingredients: ["Эспрессо", "Сливки", "Сгущённое молоко", "Гвоздика"],
+    allergens: ["Молоко"],
+    isHit: true
+  },
+  {
+    id: "raf-4",
+    name: "Сгущёнка-гвоздика раф 0.2л",
+    description: "Ароматный раф со сгущённым молоком и пряной гвоздикой",
+    price: 269,
+    category: "raf",
+    image: "/img/c97ab207-dca5-439d-a656-099e8e6e18d8.jpg",
+    ingredients: ["Эспрессо", "Сливки", "Сгущённое молоко", "Гвоздика"],
+    allergens: ["Молоко"]
+  },
+  {
+    id: "raf-5",
+    name: "Лавандовый раф 0.3л",
+    description: "Изысканный раф с нотами лаванды для истинных ценителей",
+    price: 379,
+    category: "raf",
+    image: "/img/9637bcfc-96ac-4dff-9e4b-4b16c1a823cd.jpg",
+    ingredients: ["Эспрессо", "Сливки", "Лавандовый сироп", "Сахар"],
+    allergens: ["Молоко"],
+    isHit: true
+  },
+  {
+    id: "raf-6",
+    name: "Лавандовый раф 0.2л",
+    description: "Изысканный раф с нотами лаванды для истинных ценителей",
+    price: 269,
+    category: "raf",
+    image: "/img/9637bcfc-96ac-4dff-9e4b-4b16c1a823cd.jpg",
+    ingredients: ["Эспрессо", "Сливки", "Лавандовый сироп", "Сахар"],
+    allergens: ["Молоко"]
+  },
+
   // ЧАЙ И НАПИТКИ
   {
     id: "8",
@@ -287,6 +352,7 @@ const menuItems: MenuItem[] = [
 const categories = [
   { id: "all", name: "Все", icon: "Utensils" },
   { id: "coffee", name: "Кофе", icon: "Coffee" },
+  { id: "raf", name: "Сливочный Раф", icon: "Heart" },
   { id: "tea", name: "Чай и напитки", icon: "Leaf" },
   { id: "breakfast", name: "Завтраки", icon: "Sunrise" },
   { id: "main", name: "Основные блюда", icon: "ChefHat" },
